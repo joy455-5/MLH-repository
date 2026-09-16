@@ -1,18 +1,16 @@
 {
   "image": "ghcr.io/cs50/codespace",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
   "customizations": {
     "vscode": {
       "extensions": [
+        "cs50.cs50-vscode",
         "ms-python.python",
-        "ms-vscode.cpptools",
-        "cs50.cs50-vscode"
-      ],
-      "settings": {
-        "terminal.integrated.defaultProfile.linux": "bash"
-      }
+        "ms-vscode.cpptools"
+      ]
     }
   },
-  "features": {
-    "ghcr.io/devcontainers/features/git:1": {}
-  }
+  "updateContentCommand": "curl -s https://cs50.dev/update50.sh | bash"
 }
