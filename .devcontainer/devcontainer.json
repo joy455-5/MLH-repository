@@ -4,8 +4,15 @@
     "vscode": {
       "extensions": [
         "ms-python.python",
-        "ms-vscode.cpptools"
-      ]
+        "ms-vscode.cpptools",
+        "cs50.cs50-vscode"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
     }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
   }
 }
